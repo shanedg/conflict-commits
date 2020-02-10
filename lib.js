@@ -4,6 +4,12 @@ function getBoolean() {
   return truthy && !falsy;
 }
 
+function getString() {
+  const myString = 'hello world';
+  return myString;
+}
+
 module.exports = {
   getBoolean,
+  getString,
 };
